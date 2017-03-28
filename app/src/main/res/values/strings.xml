@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Horizontal List with RecyclerView</string>
+    <string-array name="names">
+        <item>Elena</item>
+        <item>Sergio</item>
+        <item>Ioana</item>
+        <item>Minodora</item>
+        <item>Haris</item>
+        <item>Antoaneta</item>
+        <item>Constantin</item>
+        <item>Cris</item>
+        <item>Irina</item>
+    </string-array>
+    <integer-array name="ages">
+        <item>26</item>
+        <item>37</item>
+        <item>31</item>
+        <item>25</item>
+        <item>40</item>
+        <item>31</item>
+        <item>68</item>
+        <item>30</item>
+        <item>25</item>
+    </integer-array>
+    <string-array name="images">
+        <item>http://www.deadzebra.com/wp-content/uploads/2014/07/HeroesVillainsII_ABTester_Front_800-500x375.jpg</item>
+        <item>http://www.deadzebra.com/wp-content/uploads/2014/07/HeroesVillainsII_ProfessorEval_Front_800-500x375.jpg</item>
+        <item>http://www.deadzebra.com/wp-content/uploads/2014/07/HeroesVillainsII_ProfessorEval_Front_8001-500x375.jpg</item>
+        <item>http://www.deadzebra.com/wp-content/uploads/2014/07/HeroesVillainsII_Botman_Front_800-500x375.jpg</item>
+        <item>http://www.deadzebra.com/wp-content/uploads/2015/04/newton_front-800-500x375.jpg</item>
+        <item>http://www.deadzebra.com/wp-content/uploads/2015/04/curie_front-800-500x375.jpg</item>
+        <item>http://www.deadzebra.com/wp-content/uploads/2015/04/tesla_front-800-500x375.jpg</item>
+        <item>http://www.deadzebra.com/wp-content/uploads/2014/07/HeroesVillainsII_ABTester_Front_800-500x375.jpg</item>
+        <item>http://www.deadzebra.com/wp-content/uploads/2014/07/HeroesVillainsII_ProfessorEval_Front_800-500x375.jpg</item>
+    </string-array>
+</resources>
