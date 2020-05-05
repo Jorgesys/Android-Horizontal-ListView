@@ -1,13 +1,13 @@
 package com.jorgesys.recyclerviewHorizontal;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import java.util.List;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.squareup.picasso.Picasso;
 
@@ -35,7 +35,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
         holder.getAgeTextView().setText(String.valueOf(person.getAge()));
         //set image with picasso.
         //permission required : android.permission.INTERNET
-        Picasso.with(holder.getPersonImageView().getContext())
+        Picasso.get()
                 .load(person.getUrlImage())
                 .into(holder.getPersonImageView());
 
